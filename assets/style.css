@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 10%;
+  align-items: center;
+}
+nav .logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+nav button {
+  background-color: #199df3;
+  border: none;
+  outline: none;
+  padding: 15px 30px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  padding: 100px 10% 25px 10%;
+  background-color: #0d053a;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+#main .text {
+  color: #fff;
+}
+#main .text h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+#main .text h1 span {
+  color: #199df3;
+}
+#main .text h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+#main .form form {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 20px;
+}
+#main .form form .form-card {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+#main .form form .form-card label {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 5px 0;
+  color: #6e6e6e;
+}
+#main .form form .form-card input {
+  padding: 10px 10px;
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
+}
+#main .form form .button button {
+  background-color: #199df3;
+  padding: 10px 50px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
